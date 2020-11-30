@@ -33,3 +33,18 @@ h1 {
     font-size: 50px;
   }
 }
+
+@media screen and (min-width: 768px) {
+  body {
+    background: coral;
+  }
+  .banner {
+    background: brown;
+  }
+  h1 {
+    color: pink;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+  }
+}
